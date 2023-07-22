@@ -1,11 +1,10 @@
 ## 后端代码
 	> 主要功能 ：类似于一个简易的聊天社区，可实现 登录 注册 帖子生成  创建社区，根据时间和点赞人数只能推荐帖子  
-   
-   - 框架： gin 
-	 - 数据端： sqlx + redis 
-	 - 日志处理：zap 
-	 - 配置信息：viper 
-	 - 鉴权： JWT 
-	 - 限流： rateLimit来限制流量
-	 - ID生成器：Twitter雪花算法 
+- 框架： gin
+- 数据端： sqlx + redis
+- 日志处理：zap 
+- 配置信息：viper
+- 鉴权： JWT
+- 限流： rateLimit来限制流量
+- ID生成器：Twitter雪花算法 
 	 
