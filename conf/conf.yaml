@@ -1,0 +1,40 @@
+app:
+  name: "bluebell"
+  mode: "dev"
+  port: 9090
+  version: "v1"
+auth:
+  jwt_expire: 8760
+
+log:
+  level: "debug"
+  filename: "bluebell.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  user: "root"
+  password: "571400yst"
+  db: "bluebell"
+  max_open_connection: 20
+  max_idle_connection: 10
+
+redis:
+  host: 192.168.242.166
+  port: 6379
+  password: ""
+  db: 0
+  pool_size: 100
+
+snowflake:
+  start_time: "2020-07-01"
+  machine_id: 1
+
+encrypt:
+  secret_key: "StudentCWZ"
+
+gin:
+  mode: "debug"
